@@ -24,3 +24,17 @@ ____
 
 ```
 `<iostream>`: Entrada e saida de um programa C++
+
+## Criando a Calculadora
+
+Criamos um arquivo `Calculator.h`que é um arquivo de cabeçalho ou variáveis e juntos um `Calculator.cpp` que é o arquivo de origem
+
+onde criamos uma classe e uma variavel publica que recebe parametros x, oper, y
+
+`#pragma once
+class Calculator {
+  public:
+    double Calculate(double x, char oper, double y);
+};`
+
+E no arquivo Calculator.cpp puxamos essa váriavel publica e verificamos o `oper` com Switch
